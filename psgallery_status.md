@@ -5,7 +5,7 @@ PowerShell Gallery Status
 ### March 5th 2026, Slowness in installing packages.
 Around 12:00pm UTC we have been observing delays in installing packages. We are working on a fix to resolve this, but you may see brief delays or interruptions in downloading packages.
 
-__Status: Ongoing__
+__Status: Resolved__
 
 ### Jan 26th - Feb 6th 2026, Issues with Az.ContainerRegistry failing with 500 Error during `Find-PSResource "Az" -IncludeDependencies` and `Install-PSResource "Az"` cmdlet run
 Starting January 26th users reported failures installing Az, using PSResourceGet command `Install-PSResource 'Az' -Repository PSGallery`, with a 500 error mentioning the dependency module 'Az.ContainerRegistry'. PowerShellGet V2 cmdlet `Install-Module` was still succeeding in installing Az and its dependency Az.ContainerRegistry.
